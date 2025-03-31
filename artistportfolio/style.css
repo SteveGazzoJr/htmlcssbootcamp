@@ -1,0 +1,31 @@
+body {
+    font-family: Cormorant, serif;
+}
+
+.navLink a {
+    color: black;
+    text-decoration: none;
+}
+
+.navLink {
+    margin: 0 8px;
+    font-weight: 200;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+#lightHeader {
+    font-weight: 300;
+    margin: 0;
+}
+
+.navbar {
+    margin: 0 32px 0 0;
+}
+
+
+.inline {
+    display: inline;
+}
