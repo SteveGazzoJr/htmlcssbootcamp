@@ -13,19 +13,42 @@ body {
 }
 
 .navLink:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid black;
 }
 
 #lightHeader {
     font-weight: 300;
     margin: 0;
+    padding-left: 1%;
 }
 
 .navbar {
     margin: 0 32px 0 0;
+    padding-bottom: 50px;
 }
 
 
 .inline {
     display: inline;
+}
+
+li.active {
+    border-bottom: 1px solid black;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+.imageContainer {
+    box-sizing: border-box;
+    padding: 1%;
+    display: inline-block;
+    width: 49.75%;
+}
+
+.imageContainer img {
+    height: 500px;
+    width: 100%;
 }
