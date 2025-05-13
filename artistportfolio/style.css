@@ -51,4 +51,30 @@ img {
 .imageContainer img {
     height: 500px;
     width: 100%;
+    object-fit: cover;
+}
+
+.imageContainer h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.imageContainer:hover {
+    opacity: 90%;
+}
+
+.gallery {
+    padding: 16px;
+}
+
+.footer {
+    margin-left: 10%;
+    margin-bottom: 10%;
+    display: inline-block;
+    width: 40%;
+}
+
+.footer h2 {
+    font-size: 40px;
+    font-weight: 300;
 }
